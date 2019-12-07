@@ -1,0 +1,33 @@
+.movie-layout {
+  padding: 3em;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.add-movie {
+  background-color: #333;
+  height: 30px;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  outline: none;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.header-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.poster-image {
+  width: 100px;
+  height: 150px;
+}
